@@ -1,16 +1,57 @@
-<<<<<<< HEAD
-# React + Vite
+# Contact App 📇
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+یک برنامه مدیریت مخاطبین ساده با استفاده از React.  
+این پروژه برای تمرین مفاهیم Context API، فرم‌ها، اعتبارسنجی و ساخت نمونه‌کار انجام شده است.
 
-Currently, two official plugins are available:
+## ✨ ویژگی‌ها
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- افزودن، ویرایش و حذف مخاطبین
+- حذف گروهی مخاطبین
+- جستجو بر اساس نام، نام خانوادگی و ایمیل
+- تایید عملیات‌ها با مدال
+- استفاده از Context API و useReducer
+- فرم‌های قابل استفاده مجدد (Reusable)
+- اعتبارسنجی با Yup
+- مدیریت فرم‌ها با React Hook Form
+- API ساختگی با json-server
 
-## Expanding the ESLint configuration
+## 🛠 تکنولوژی‌ها
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# ali-saeidpour_week16
->>>>>>> 573522112005ea9569c6b86f82683624c3aef6be
+- React
+- Context API
+- useReducer
+- React Hook Form
+- Yup
+- json-server
+
+## 🧑‍💻 اجرا
+
+```bash
+npm install
+npm run dev
+```
+
+## 🗃 ساختار پوشه‌ها
+
+```
+src/
+|-- components/
+|   |-- forms/
+|   |   |-- ContactForm.jsx
+|   |   |-- TextInput.jsx
+|   |   |-- FormButton.jsx
+|   |-- modals/
+|   |   |-- ConfirmModal.jsx
+|-- context/
+|   |-- ContactContext.js
+|   |-- ContactProvider.jsx
+|-- pages/
+|   |-- Home.jsx
+|   |-- EditContact.jsx
+|-- App.jsx
+|-- main.jsx
+```
+
+## 🧪 اعتبارسنجی فرم
+
+اعتبارسنجی فرم‌ها با استفاده از Yup و React Hook Form انجام شده است.
