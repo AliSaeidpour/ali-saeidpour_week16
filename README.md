@@ -35,21 +35,23 @@ npm run dev
 
 ```
 src/
-|-- components/
-|   |-- forms/
-|   |   |-- ContactForm.jsx
-|   |   |-- TextInput.jsx
-|   |   |-- FormButton.jsx
-|   |-- modals/
-|   |   |-- ConfirmModal.jsx
-|-- context/
-|   |-- ContactContext.js
-|   |-- ContactProvider.jsx
-|-- pages/
-|   |-- Home.jsx
-|   |-- EditContact.jsx
-|-- App.jsx
-|-- main.jsx
+│
+├─ components/
+│  ├─ ContactForm.jsx
+│  ├─ ContactList.jsx
+│  ├─ ConfirmModal.jsx
+│  └─ forms/
+│      └─ TextInput.jsx
+│
+├─ context/
+│  ├─ ContactContext.js
+│  └─ ContactProvider.jsx
+│
+├─ styles/
+│  └─ app.css
+│
+├─ App.jsx
+└─ main.jsx
 ```
 
 ## 🧪 اعتبارسنجی فرم
